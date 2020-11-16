@@ -1,0 +1,300 @@
+226  mysql --version
+  227  mysql.server restart
+  228  touch /usr/local/var/mysql/hmdMBP.local.pid
+  229  mysql.server start
+  230  ls -la /tmp
+  231  ls -la /private/tmp/
+  232  ls
+  233  cd /usr/local/var/mysql/
+  234  ls
+  235  ls -la
+  236  mysql.server start
+  237  vi hmdMBP.local.err 
+  238  time
+  239  vi hmdMBP.local.err 
+  240  mysql.server start
+  241  vi hmdMBP.local.err 
+  242  mysql.server start
+  243  mysql.server start
+  244  vi hmdMBP.local.err 
+  245  brew uninstall mysql@5.7
+  246  mysql --version
+  247  ls /usr/local/var/mysql/
+  248  pwd
+  249  cd ../
+  250  ls
+  251  ls -la
+  252  rm -rf mysql/
+  253  ls
+  254  cd ..
+  255  ls -la
+  256  ls Cellar/ | grep m
+  257  locate
+  258  locate mysql
+  259  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  260  locate mysql
+  261  ls
+  262  ls / | grep mysql
+  263  ls
+  264  ls
+  265  mysql.server start
+  266  ls /usr/local/opt/
+  267  ls /usr/local/opt/ | grep my
+  268  ls /usr/local/bin/ | grep my
+  269  ls /usr/local/sbin/ | grep my
+  270  brew install mysql@5.7
+  271  mysql.server start
+  272  mysql --version
+  273  ps aux | grep mysql
+  274  sudo su -
+  275  sudo mysql.server start
+  276  ls -la /usr/local/var/mysql/
+  277  cd /usr/local/var/mysql/
+  278  ls -la
+  279  vi hmdMBP.local.err 
+  280  ps aux | grep 3306
+  281  lsof -i -P | grep 3306
+  282  ls
+  283  vim hmdMBP.local.err 
+  284  ls
+  285  vi /Users/hamadaryota/testApp/.env
+  286  vim hmdMBP.local.err 
+  287  ls -la
+  288  ls -la /tmp/
+  289  cd /tmp/
+  290  ls -la
+  291  rm -r mysql.sock
+  292  sudo rm mysql.sock
+  293  sudo rm mysql.sock.lock 
+  294  mysql.server start
+  295  mysql -u root -p
+  296  mysql -u root -p
+  297  mysql -u root -p
+  298  cd
+  299  cd
+  300  cd laravel_app
+  301  exit
+  302  php artisan serve
+  303  php artisan route:list
+  304  php artisan serve
+  305  cd laravel_app
+  306  php artisan serve
+  307  php artisan serve
+  308  cd laravel_app
+  309  laravel_lesson
+  310  cd laravel_app
+  311  cd test_app
+  312  cd
+  313  laravel_app
+  314  cd laravel_app
+  315  cd laravel_app
+  316  cd laravel_app
+  317  git init
+  318  git status
+  319  git add .
+  320  git status
+  321  git commit -m 'first commit'
+  322  git status
+  323  git log
+  324  git remote add origin https://github.com/Ryota-Hamada/laravel_app.git
+  325  git remote -v
+  326  git push origin master
+  327  git push origin master
+  328  git push origin master
+  329  git remote -v
+  330  git push origin master
+  331  git branch
+  332  git status
+  333  git log
+  334  git status
+  335  git add app/Http/Controllers/TodoController.php
+  336  git status
+  337  git commit -m 'TodoControllerのリダイレクトをルートネームを使用した処理に変更'
+  338  git log
+  339  git push origin master
+  340  git log
+  341  git diff ae13202d7b1824db00aa71009b1667164feeae8d
+  342  git diff ae13202d7b1824db00aa71009b1667164feeae8d
+  343  git diff
+  344  git log
+  345  git diff 9fea97299f824143fe563701bc8a49c5a349eafd
+  346  git status
+  347  git commit -m 'index.blade.phpのToDo一覧に一覧に「ID」'
+  348  git add resources/views/todo/index.blade.php
+  349  git status
+  350  git commit -m 'index.blade.phpのTodo一覧にID項目を追加'
+  351  git push origin master
+  352  git log
+  353  git diff ae13202d7b1824db00aa71009b1667164feeae8d
+  354  git branch
+  355  git branch working
+  356  git brabch
+  357  git brabch
+  358  git branch
+  359  git checkout working
+  360  git branch
+  361  git push origin working
+  362  git add resources/views/todo/index.blade.php
+  363  git status
+  364  git commit -m 'リンクの文言を「新規作成」に変更'
+  365  git push origin working
+  366  git merge working
+  367  git checkout -b 1_show_user_name
+  368  git branch
+  369  git add resources/views/todo/index.blade.php
+  370  git status
+  371  git commit -m 'TODO一覧の文言を「〜のTODO一覧」とユーザーネームを表示させるよう変更'
+  372  git push origin 1_show_user_name
+  373  git log
+  374  git merge 1_show_user_name
+  375  git checkout master
+  376  git branch
+  377  git checkout working
+  378  git push origin working
+  379  git merge working
+  380  git checkout master
+  381  git branch
+  382  git merge working
+  383  git merge 1_show_user_name
+  384  git checkout -b 2_introduce_softdelete
+  385  git branch
+  386  git atatus
+  387  git status
+  388  mysql -u root -p
+  389  mysql -u root -p
+  390  php artisan migrate
+  391  php artisan make:migration add_deleted_at_to_todos_table --table=todos
+  392  php artisan migrate
+  393  mysql -u root -p
+  394  git status
+  395  git add .
+  396  git status
+  397  git commit -m '論理削除の実装'
+  398  git push origin 2_introduce_softdelete
+  399  git checkout master
+  400  git branch
+  401  git merge 2_introduce_softdelete
+  402  git branch
+  403  git checkout 2_introduce_softdelete
+  404  git branch
+  405  git status
+  406  git checkout merge
+  407  git checkout master
+  408  git merge 2_introduce_softdelete
+  409  git log
+  410  git branch
+  411  git merge 2_introduce_softdelete
+  412  git log
+  413  git checkout working
+  414  git checkout working
+  415  git checkout 2_introduce_softdelete
+  416  git checkout master
+  417  git checkout 2_introduce_softdelete
+  418  git push origin 2_introduce_softdelete
+  419  git push origin master
+  420  git branch
+  421  cd
+  422  virtualbox
+  423  brew cask install vagrant
+  424  vagrant -v
+  425  vagrant box add centos/7
+  426  cd vagrant_test
+  427  cd vagrant_test
+  428  cd desktop
+  429  cd vagrant_test
+  430  vagrant init centos/7
+  431  vagrant plugin install vagrant-vbguest
+  432  vagrant plugin list
+  433  vagrant up
+  434  Vagrant was unable to mount VirtualBox shared folders. This is usually
+  435  because the filesystem "vboxsf" is not available. This filesystem is
+  436  made available via the VirtualBox Guest Additions and kernel module.
+  437  Please verify that these guest additions are properly installed in the
+  438  guest. This is not a bug in Vagrant and is usually caused by a faulty
+  439  Vagrant box. For context, the command attempted was:
+  440  mount -t vboxsf -o uid=1000,gid=1000 vagrant /vagrant
+  441  The error output from the command was:
+  442  vagrant up
+  443  vagrant up
+  444  vagrant ssh
+  445  ssh
+  446  vagrant ssh-config
+  447  vagrant ssh
+  448  vagrant ssh-config
+  449  ssh vagrant@127.0.0.1 -i /Users/hamadaryota/Desktop/vagrant_test/.vagrant/machines/default/virtualbox -p 2222
+  450  ssh
+  451  vagrant ssh
+  452  vagrant up
+  453  ssh vagrant@127.0.0.1 -i /Users/hamadaryota/Desktop/vagrant_test/.vagrant/machines/default/virtualbox -p 2222
+  454  vagrant ssh
+  455  vagrant ssh
+  456  vi Vagrantfile 
+  457  pwd
+  458  vagrant ssh
+  459  vi Vagrantfile 
+  460  vagrant reload
+  461  vagrant plugin list
+  462  vagrant plugin update  vagrant-vbguest
+  463  vagrant plugin list
+  464  vagrant reload
+  465  vagrant vbguest --status
+  466  vagrant plugin install vagrant-vbguest
+  467  vagrant vbguest --status
+  468  vagrant reload
+  469  vi Vagrantfile 
+  470  vagrant box update
+  471  vagrant reload
+  472  vagrant box list
+  473  cd ../
+  474  mkdir test
+  475  cd test
+  476  vagrant init
+  477  vi Vagrantfile
+  478  vagrant up
+  479  vagrant uninstall vagrant-plugin
+  480  vagrant plugin uninstall vagrant-vbguest
+  481  vagrant plugin install vagrant-vbguest
+  482  vagrant reload
+  483  vagrant destroy
+  484  cd
+  485  cd -
+  486  cd ../
+  487  mkdir server_lesson
+  488  cd
+  489  vagrant box list
+  490  vagrant box remove bento/centos-6.8
+  491  cd desktop
+  492  cd -
+  493  cd -
+  494  cd desktop
+  495  cd vagrant_test
+  496  ls /
+  497  vagrant up
+  498  vagrant ssh
+  499  exit
+  500  /Volumes/VirtualBox/VirtualBox_Uninstall.tool ; exit;
+  501  ls
+  502  ls
+  503  sudo yum -y groupinstall "development tools"
+  504  vagrant ssh
+  505  vagrant -v
+  506  cd
+  507  cd desktop/server_lesson/linux_practice2
+  508  mkdir gizumo{01..50}.md
+  509  rm *.md
+  510  mkdir documents
+  511  touch gizumo{01..50}.md
+  512  rm *.md
+  513  cd documenys
+  514  cd documents/
+  515  touch gizumo{01..50}.md
+  516  cd ../
+  517  mkdir trash
+  518  mv /documents/gizumo{20..40}.md trash
+  519  mv documents/gizumo{20..40}.md /trash
+  520  mv ./documents/gizumo{20..40}.md ./trash
+  521  touch .gitignore
+  522  vi 
+  523  vi .gitignore
+  524  hiatory300
+  525  history 300
